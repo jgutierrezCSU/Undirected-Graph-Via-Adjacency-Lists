@@ -1,0 +1,8 @@
+#do not push these files
+t01_t10
+tests/
+Assignment3.pdf
+finish.zip
+main.o
+run
+ugraph.o
