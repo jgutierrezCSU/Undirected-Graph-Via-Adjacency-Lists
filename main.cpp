@@ -27,8 +27,8 @@ int main(){
 
 	cout << "Enter the size of the adjacency list: " ;
 	cin >> N;
+	//constructor resizes Adj, parents, stamps, distance and colors to the size N
 	Ugraph ag(N);
-
 	string command;
 	while(cin >> command){
 		if(command == "addEdge"){
