@@ -11,6 +11,21 @@ using namespace std;
 int main(){
 
     int N;
+	cout << "-- OPTIONS--" << endl;
+	cout << "addEdge:" << endl;
+	cout << "removeEdge:" << endl;
+	cout << "bfs:" << endl;
+	cout << "distinctPaths:" << endl;
+	cout << "printBridges:" << endl;
+	cout << "printCC:" << endl;
+	cout << "twoColoring:" << endl;
+	cout << "printGraph:" << endl;
+
+
+
+
+
+	cout << "Enter the size of the adjacency list: " ;
 	cin >> N;
 	Ugraph ag(N);
 
